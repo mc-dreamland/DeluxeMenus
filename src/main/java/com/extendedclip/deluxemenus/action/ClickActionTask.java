@@ -73,7 +73,7 @@ public class ClickActionTask extends BukkitRunnable {
                 this.arguments,
                 target,
                 this.parsePlaceholdersInArguments,
-                this.parsePlaceholdersAfterArguments);
+                this.parsePlaceholdersAfterArguments).trim();
 
         switch (actionType) {
             case META:
